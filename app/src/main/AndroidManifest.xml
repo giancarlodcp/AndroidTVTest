@@ -21,6 +21,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HaystackTest">
         <activity
+            android:name=".ImageActivity"
+            android:exported="false" />
+        <activity
             android:name=".SearchActivity"
             android:exported="false" />
         <activity

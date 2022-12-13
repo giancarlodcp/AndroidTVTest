@@ -34,6 +34,8 @@ class CardPresenter : Presenter() {
         cardView.setMainImageDimensions(CARD_WIDTH, CARD_HEIGHT)
         Glide.with(cardView.mainImageView).load(flickrPic.image).placeholder(R.mipmap.haystack)
             .into(cardView.mainImageView)
+
+
     }
 
     override fun onUnbindViewHolder(viewHolder: ViewHolder?) {
